@@ -1,0 +1,106 @@
+import React, { useState, useEffect } from 'react';
+
+const UseEffectComponent = () => {
+    const [click, setClick] = useState(0);
+
+    useEffect(() => {
+        console.log('The click count has changed:', click);
+    }, [click]);
+
+    return (
+        <div>
+            <button onClick={() => setClick(click + 1)}>+</button>
+            <button onClick={() => setClick(click - 1)}>-</button>
+            <p>Click count: {click}</p>
+        </div>
+    );
+};
+
+export default UseEffectComponent;
+
+
+
+
+
+By Including Title and id with innerhtml :
+
+
+1)
+
+
+import React, { useState, useEffect } from 'react';
+
+const UseEffectComponent = () => {
+    const [click, setClick] = useState(0);
+
+    useEffect(() => {
+        document.title = `Click count: ${click}`;
+    }, [click]);
+
+    return (
+        <div>
+            <button onClick={() => setClick(click + 20)}>+</button>
+            <button onClick={() => setClick(click - 1)}>-</button>
+            <h1 >Click count: {click}</h1>
+        </div>
+    );
+};
+
+export default UseEffectComponent;
+
+
+
+
+2)
+
+
+import React, { useState, useEffect } from 'react';
+
+const UseEffectComponent = () => {
+    const [click, setClick] = useState(0);
+
+    useEffect(() => {
+        // document.title = `Click count: ${click}`;
+        document.getElementById("ss").innerHTML = `value ${click}`;
+    }, [click]);
+
+    return (
+        <div>
+            <button onClick={() => setClick(click + 20)}>+</button>
+            <button onClick={() => setClick(click - 1)}>-</button>
+            <h1 id='ss'></h1>
+        </div>
+    );
+};
+
+export default UseEffectComponent;
+
+
+useReducer :
+
+    import React, {useState, useReducer} from 'react';
+
+function reducerfunction(state, action){
+    return {count:state.count+ 1}
+}
+
+const Usereducer = () => {
+    const[state, dispatch]= useReducer(reducerfunction,{count:55})
+    function increment () {
+        dispatch()
+    }
+    function decrement () {
+        dispatch()
+    }
+    console.log(state)
+
+  return (
+    <div>
+        <h1>{state.count}</h1>
+        <button onClick={increment}>+</button>
+        <button onClick={decrement}>-</button>
+    </div>
+  )
+}
+
+export default Usereducer

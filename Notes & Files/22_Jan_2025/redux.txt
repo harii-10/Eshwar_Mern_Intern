@@ -1,0 +1,9 @@
+Installation :
+
+    npm i @reduxjs/toolkit react-redux
+
+Here : 
+
+    reduxjs/toolkit -> redux library
+
+Router -> Routes -> Route -> path <- Route <- Routes <- Router

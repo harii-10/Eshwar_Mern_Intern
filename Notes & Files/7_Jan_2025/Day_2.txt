@@ -1,0 +1,49 @@
+Arrow Function - Under ES (Ecma Script)
+ 
+Its from ES6 for efficiency and for the space and to increase the readability and we can create the function without name and we can called as the arrow function 
+
+document.getElementByID
+
+document => Object
+get => method
+Element => Html Element
+
+
+TASK 1: Design a simple calculator by getting two numbers as input display addition subtractiom product quotient remainder by creatting the individual arrow functions
+
+TASK 2: Create an array by taking array size and array element from the user then extract all the perfect numbers and even prime numbers from the array 
+
+
+
+
+
+					OOPS - Object Oriented Programming Structures
+
+	Class      : Bird
+	Object 	   : Pigeon, Crow, Eagle                                Class  => Blueprint
+	Properties : Color, Feather, Legs                               Object => Instance of Class
+	Methods    : Flying, Eating, Singing
+
+
+	Keys    : Extract all keys
+	values  : Extract all values
+	Entries : Extract all entries
+
+
+	Promise in JS
+	 -> promise is the JS object
+	 -> There are two state resolve(Success) and reject(failure)	
+
+	 invoking the function and call back
+
+	 Example :
+
+	 			let thatkal_booking = new Promise ((resolve, reject) =>{
+					let booking = true
+					if(booking)
+						resolve()
+					else
+						reject()
+				})
+
+	

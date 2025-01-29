@@ -1,0 +1,75 @@
+C:\Users\Hariharan\OneDrive\Desktop\8_Jan_2025\React
+
+npm -> node package manager
+
+
+Steps : 
+ 1-> create the new folder in desktop
+ 2-> open that folder in the cmd
+ 3-> Check the version (node -v) and (npm -v)
+ 4-> Create the react app using
+ 			-> npx create-react-app appname
+ 			-> npm start  
+
+
+ 			
+ Two important folders in React :
+ 	-> public
+ 	-> src
+ Three important Files in React :
+ 	-> index.html
+ 	-> index.js
+ 	-> index.css
+
+ NOTE : As of Now dont touch index files
+ NOTE : Initially write code in the app.js
+
+
+
+->React follow VDOM here unlike html once dom gets created the changes are manipulation what we do gets completed and only that part will be re-rendered
+
+->whereas in html every time we make change entire dom will be re-rentered
+
+
+In the Webapplication created by React JS each and everything is called a components
+			Types of Componanents
+				-> Functional
+				-> class
+
+
+JSX - JavaScript XML (JavaScript Extensible Markup Language)
+
+Jsx means when we write the HTML in the js 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

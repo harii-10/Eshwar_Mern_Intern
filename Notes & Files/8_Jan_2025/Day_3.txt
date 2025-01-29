@@ -1,0 +1,50 @@
+Task 1: Write the Promise called "Andhra - BP"
+	    There will be three Functions : Person a, Person b, Person c
+	    Distance (Andhra to a) - 5000, (Andhra to b) - 2000, (Andhra to c) - 1000
+
+	    Expected Output : c
+	                      b
+	                      a
+
+
+
+
+Promise Inbuilt Methods : 
+		
+		-> When there is more that one promise on order to review them we can use promise in built methods according to the requirements 
+
+		1) Promise.all          => Once it sees a promise false it will stop
+
+		2) Promise.any          => Gives According to the time (shortest time). Shorter time promise provided, status 							   should be true
+
+		3) Promise.allsettled   => 
+		                          1) Fullfilled
+		                          2) Rejected
+		                          3) Pending
+
+		4) Promise.race         => Unlike Any Race will work even with the False (ie : If false it returns the reject, 							   whereas in "any" is it false it return the next smallest promise )
+
+
+
+
+
+
+
+
+
+REACT :
+
+	  It is the library of Framework of the JS
+	  Examples: HTML websites  => Youtube, Wikipedia
+	            React websites => Netflix , 
+
+
+
+
+
+
+
+
+
+
+

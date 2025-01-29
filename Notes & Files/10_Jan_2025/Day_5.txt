@@ -1,0 +1,4 @@
+Spread Operator :
+The spread operator is a feature in JavaScript that allows
+you to spread an array into a function call or into another array.
+

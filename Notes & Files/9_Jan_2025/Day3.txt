@@ -1,0 +1,29 @@
+Properties and States :
+
+	* every component will have props and states
+	props : 
+		->It wont Change
+		-> ex : Name(Tata, Bisleri)
+	States :
+		-> It changes or we can change it
+		->Ex: Water levels 
+
+
+
+	FlipKart Website :
+		Components => Grocery, Mobiles, Fashion
+		Mobiles => Component Name : Mobile
+				   props : Name, Version, Price
+				   State : Discount, Stock Available
+
+
+	React Hooks :
+		-> Earlier in it indusrty they were using the the class components, reason being state concepts was not available with functional components
+
+		-> Now Hooks is used to implement the state in functional components
+		1) useState
+		2) useEffect
+		3) useContext
+		4) useReducer
+		
+	Ex : Counterclock, stativity (initial state as 0 we can increment,decrement it, reset it using use state hook)

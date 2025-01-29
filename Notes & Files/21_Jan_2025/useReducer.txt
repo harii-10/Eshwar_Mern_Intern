@@ -1,0 +1,19 @@
+useReducer:
+Same as useState to manage or update states that is data that is valuesof components.
+Difference is if u have more states or complex things u use useReducer hook
+
+Step1:
+Crete increment decrement program using useState
+
+step2:
+replace useState with useReducer
+
+Point 1 :
+    useReducer takes 2 args first is reducer function and second is initial state
+Point 2 :
+    useReducer return array with 2 values first is state and second is dispatch function
+
+
+Here state will hold the intital value and updated once u call dispatch function 
+
+And dispatch will trigger the reducer function to update the state
